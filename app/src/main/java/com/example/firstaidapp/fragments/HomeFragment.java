@@ -53,12 +53,12 @@ public class HomeFragment extends Fragment implements EmergencyConditionAdapter.
 
     private List<EmergencyCondition> getEmergencyConditions() {
         List<EmergencyCondition> conditions = new ArrayList<>();
-        conditions.add(new EmergencyCondition(1, "Kecelakaan di Jalan", "Penanganan korban kecelakaan lalu lintas", R.drawable.ic_accident));
-        conditions.add(new EmergencyCondition(2, "CPR", "Resusitasi jantung paru untuk korban henti jantung", R.drawable.ic_cpr));
-        conditions.add(new EmergencyCondition(3, "Pendarahan", "Menghentikan pendarahan dan mencegah infeksi", R.drawable.ic_bleeding));
-        conditions.add(new EmergencyCondition(4, "Tersedak", "Penanganan korban tersedak dengan teknik Heimlich", R.drawable.ic_choking));
-        conditions.add(new EmergencyCondition(5, "Keracunan", "Pertolongan pertama untuk korban keracunan", R.drawable.ic_poisoning));
-        conditions.add(new EmergencyCondition(6, "Fraktur", "Penanganan sementara untuk patah tulang", R.drawable.ic_fracture));
+        conditions.add(new EmergencyCondition(1, "Kecelakaan di Jalan", "Penanganan korban kecelakaan lalu lintas", R.drawable.accident));
+        conditions.add(new EmergencyCondition(2, "CPR", "Resusitasi jantung paru untuk korban henti jantung", R.drawable.cpr));
+        conditions.add(new EmergencyCondition(3, "Pendarahan", "Menghentikan pendarahan dan mencegah infeksi", R.drawable.bleeding));
+        conditions.add(new EmergencyCondition(4, "Tersedak", "Penanganan korban tersedak dengan teknik Heimlich", R.drawable.choking));
+        conditions.add(new EmergencyCondition(5, "Keracunan", "Pertolongan pertama untuk korban keracunan", R.drawable.poisoning));
+        conditions.add(new EmergencyCondition(6, "Fraktur", "Penanganan sementara untuk patah tulang", R.drawable.fracture));
         return conditions;
     }
 
