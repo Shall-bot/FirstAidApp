@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">First Aid App</string>
+
+    <!-- Menu Items -->
+    <string name="menu_home">Beranda</string>
+    <string name="menu_first_aid">Panduan</string>
+    <string name="menu_learn">Belajar</string>
+    <string name="menu_user">Profil</string>
+
+    <!-- Home Fragment -->
+    <string name="home_title">Pertolongan Pertama</string>
+    <string name="home_subtitle">Panduan penanganan kondisi darurat untuk menyelamatkan nyawa</string>
+    <string name="emergency_conditions_title">Kondisi Darurat</string>
+    <string name="emergency_call_title">Panggilan Darurat</string>
+    <string name="emergency_call_subtitle">Hubungi nomor darurat berikut untuk mendapatkan bantuan profesional</string>
+    <string name="call_police">Polisi\n110</string>
+    <string name="call_ambulance">Ambulans\n118/119</string>
+    <string name="call_fire_dept">Damkar\n113</string>
+    <string name="first_aid_kit_title">Peralatan P3K Dasar</string>
+    <string name="first_aid_kit_item_1">Perban</string>
+    <string name="first_aid_kit_desc_1">Untuk menutup luka dan menghentikan pendarahan</string>
+    <string name="first_aid_kit_item_2">Antiseptik</string>
+    <string name="first_aid_kit_desc_2">Untuk membersihkan luka dan mencegah infeksi</string>
+    <string name="first_aid_kit_item_3">Plester</string>
+    <string name="first_aid_kit_desc_3">Untuk menutup luka kecil</string>
+    <string name="emergency_condition_image">Gambar kondisi darurat</string>
+
+    <!-- First Aid Detail Fragment -->
+    <string name="steps_title">Langkah-langkah Penanganan</string>
+    <string name="tips_title">Tips Penting</string>
+    <string name="disclaimer_title">Perhatian</string>
+    <string name="disclaimer_text">Panduan ini hanya untuk informasi umum dan tidak menggantikan pelatihan formal atau bantuan medis profesional. Dalam keadaan darurat, selalu hubungi layanan darurat.</string>
+    <string name="emergency_timer_description">Mulai timer untuk memantau waktu selama penanganan darurat</string>
+    <string name="start_timer">Mulai Timer</string>
+    <string name="timer_icon">Ikon timer</string>
+
+    <!-- Emergency Timer Service -->
+    <string name="emergency_timer">Timer Darurat</string>
+    <string name="emergency_timer_channel">Saluran Timer Darurat</string>
+    <string name="emergency_timer_channel_description">Notifikasi untuk timer penanganan darurat</string>
+    <string name="time_remaining">Waktu tersisa:</string>
+    <string name="timer_finished_title">Timer Selesai</string>
+    <string name="timer_finished_text">Timer penanganan darurat telah selesai</string>
+
+    <!-- CPR Content -->
+    <string name="cpr_title">CPR (Resusitasi Jantung Paru)</string>
+    <string name="cpr_description">Teknik penyelamatan nyawa untuk korban henti jantung</string>
+    <string name="cpr_steps">1. Periksa Kesadaran\nTepuk bahu korban dan tanyakan dengan suara keras "Apakah Anda baik-baik saja?"\n\n2. Panggil Bantuan\nMinta seseorang untuk menghubungi ambulans (118/119) atau hubungi sendiri jika Anda sendirian\n\n3. Periksa Pernapasan\nMiringkan kepala korban ke belakang dan angkat dagu. Periksa pernapasan dengan melihat, mendengar, dan merasakan selama 10 detik\n\n4. Mulai Kompresi Dada\nLetakkan telapak tangan di tengah dada korban. Tekan dengan kuat dan cepat (100-120 kompresi per menit) dengan kedalaman 5-6 cm\n\n5. Berikan Napas Buatan\nSetelah 30 kompresi, berikan 2 napas buatan. Tutup hidung korban, buka mulut, dan berikan napas selama 1 detik hingga dada terlihat mengembang\n\n6. Lanjutkan CPR\nLanjutkan siklus 30 kompresi dan 2 napas buatan hingga bantuan medis tiba atau korban mulai bernapas normal</string>
+    <string name="cpr_tips">• Jika Anda tidak terlatih atau ragu, lakukan hanya kompresi dada tanpa napas buatan\n• Gunakan irama lagu "Staying Alive" untuk menjaga kecepatan kompresi yang tepat\n• Jangan ragu untuk menekan dengan kuat, tulang rusuk yang patah lebih baik daripada nyawa yang hilang\n• Ganti penolong setiap 2 menit jika memungkinkan untuk menghindari kelelahan</string>
+
+    <!-- Accident Content -->
+    <string name="accident_title">Kecelakaan di Jalan</string>
+    <string name="accident_description">Penanganan korban kecelakaan lalu lintas</string>
+    <string name="accident_steps">1. Amankan Lokasi\nNyalakan lampu hazard, pasang segitiga pengaman, dan pastikan Anda dan korban tidak berada dalam bahaya tambahan\n\n2. Panggil Bantuan\nHubungi nomor darurat (110 untuk polisi, 118/119 untuk ambulans)\n\n3. Periksa Kondisi Korban\nPeriksa kesadaran, pernapasan, dan denyut nadi korban. Jangan pindahkan korban kecuali dalam bahaya\n\n4. Hentikan Pendarahan\nTekan luka yang mengeluarkan darah dengan kain bersih atau perban\n\n5. Tangani Syok\nBaringkan korban, angkat kaki lebih tinggi dari kepala, dan jaga agar tetap hangat\n\n6. Tunggu Bantuan Medis\nTetap bersama korban, monitor kondisi, dan berikan informasi kepada petugas medis saat tiba</string>
+    <string name="accident_tips">• Jangan berikan makanan atau minuman kepada korban\n• Jangan melepas helm korban kecelakaan motor kecuali terlatih\n• Catat informasi penting seperti waktu kejadian dan perubahan kondisi korban\n• Jika korban tidak sadarkan diri tapi bernapas normal, posisikan dalam posisi recovery (miring)</string>
+
+    <!-- User Info Fragment -->
+    <string name="user_info_title">Data Pengguna</string>
+    <string name="user_info_subtitle">Simpan informasi kesehatan Anda untuk penanganan darurat yang lebih efektif</string>
+    <string name="personal_info_title">Informasi Pribadi</string>
+    <string name="name_hint">Nama Lengkap</string>
+    <string name="age_hint">Umur</string>
+    <string name="gender_label">Jenis Kelamin</string>
+    <string name="gender_male">Laki-laki</string>
+    <string name="gender_female">Perempuan</string>
+    <string name="blood_type_label">Golongan Darah</string>
+    <string name="medical_info_title">Informasi Medis</string>
+    <string name="allergies_hint">Alergi (obat, makanan, dll)</string>
+    <string name="chronic_conditions_hint">Penyakit Kronis (diabetes, hipertensi, asma, dll)</string>
+    <string name="medications_hint">Obat Rutin (nama obat, dosis, frekuensi)</string>
+    <string name="emergency_contact_title">Kontak Darurat</string>
+    <string name="emergency_contact_hint">Nomor Telepon Kontak Darurat</string>
+    <string name="save_button">Simpan</string>
+    <string name="clear_button">Hapus Data</string>
+    <string name="data_saved">Data berhasil disimpan</string>
+    <string name="data_cleared">Data berhasil dihapus</string>
+
+    <!-- Learn First Aid Fragment -->
+    <string name="learn_first_aid_title">Belajar P3K</string>
+    <string name="learn_first_aid_subtitle">Pelajari teknik pertolongan pertama dengan panduan langkah demi langkah</string>
+    <string name="available_courses">Kursus Tersedia</string>
+    <string name="lessons_count">%d pelajaran</string>
+    <string name="progress_percent">%d%% selesai</string>
+    <string name="completed">Selesai</string>
+    <string name="start_learning">Mulai Belajar</string>
+    <string name="continue_learning">Lanjutkan</string>
+    <string name="review">Lihat Kembali</string>
+    <string name="course_image">Gambar kursus</string>
+
+    <!-- First Aid Guide Fragment -->
+    <string name="first_aid_guide_title">Panduan Pertolongan Pertama</string>
+    <string name="search_hint">Cari kondisi darurat...</string>
+    <string name="tab_all">Semua</string>
+    <string name="tab_injuries">Cedera</string>
+    <string name="tab_medical">Medis</string>
+</resources>
